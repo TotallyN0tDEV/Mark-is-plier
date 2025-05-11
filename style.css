@@ -1,0 +1,20 @@
+/* Figma Styles of your File */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  /* Colors */
+  --text: #080e08;
+  --text-white: #ffffff;
+  --background: #f4f9f4;
+  --accent: #51f151;
+  --buttons-primary: #006315;
+  --buttons-primary-hover: #00300a;
+  --buttons-secondary: #4fae4f;
+
+  /* Fonts */
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  /* Effects */
+}

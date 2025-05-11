@@ -1,0 +1,132 @@
+@import url("./style.css");
+
+body {
+    margin: 0;
+}
+
+.topbar {
+    background-color: var(--buttons-primary);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-white);
+    margin: 0 10px;
+    padding: 10px 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.dont-underline:hover {
+    text-decoration: none;
+}
+
+.topbar a img {
+    vertical-align: middle;
+}
+
+.top-bg {
+    z-index: -1;
+    position: relative;
+    width: 100%;
+}
+
+.top-bg img {
+    width: 100%;
+}
+
+.top-bg .slogan {
+  color: var(--text-white);
+  position: absolute;
+  left: 8%;
+  top: 40%;
+}
+
+.superheading-text {
+    font-size: 48px;
+}
+
+.heading-text {
+    font-size: 32px;
+}
+
+.subheading-text {
+    font-size: 20px;
+}
+
+.centered-text {
+    width: 100%;
+    text-align: center;
+}
+
+.padded {
+    padding: 20px 0;
+}
+
+.padded-down {
+    padding-bottom: 10px;
+}
+
+.white {
+    color: var(--text-white);
+}
+
+.reasons-box {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--buttons-primary);
+    width: 60%;
+    margin: 5px auto;
+}
+
+.reasons-box div {
+    color: var(--text-white);
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+}
+
+.box {
+    margin: 0px 10px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--buttons-primary);
+    width: fit-content;
+    overflow: auto;
+}
+
+.review {
+    width: 15%;
+}
+
+.box div {
+    color: var(--text-white);
+}
+
+.best-seller-info {
+    display: grid;
+    width: 100%;
+}
+
+.footer {
+    padding: 20px;
+    background-color: var(--buttons-primary);
+}
+
+.footer-item {
+    color: var(--text-white);
+    margin: 0 10px;
+}
